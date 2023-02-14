@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 1rem;
+    line-height: 1.4;
+    background-color: rgba(81, 22, 136, 0.904);
+    color: white;
+    width: 100vw;
+    height: auto;
+    font-size: 18px;
+    
+    
+
+}
+
+  @media only screen and (max-width:480px){
+    .container{
+        padding:0%;
+    }
+  }
+
+
+  h1{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+ h2{
+  font-size: 15px;
+  display: flex;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 10px;  
+    margin-bottom: 10px;
+ }
+
+ .survey-form{
+background-color: rgba(7, 7, 202, 0.438);
+width:25rem;
+margin: 0 auto;
+border-radius: 12px;
+
+ }
+
+ .card1{
+    display: flex; 
+    flex-direction: column;
+    padding: 10px;
+ }
+
+#name{
+   width: 100%;
+   padding: 0.3rem;
+}
+
+#email{
+   width: 100%;
+   padding: 0.3rem;
+}
+
+#number{
+   width: 100%;
+   padding: 0.3rem;
+}
+
+
+ .Dropdown-1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+
+ #dropdown{
+   padding: 0.3rem;
+ }
+
+ .radio-buttons{
+    flex-direction: column;
+    padding: 10px;
+ }
+
+ .dropdown-2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+
+
+#most-like{
+   padding: 0.3rem;
+}
+
+ .checkbox{
+    flex-direction: column;
+    padding: 10px;
+ }
+
+ .comments{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+
+ .button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 4rem;
+   
+ }
+
+ #submit{
+   height:2rem;
+   background-color: green;
+   color: white;
+ }
